@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3A1626EB-1E0B-4508-90B7-A82CE2BDE014}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BAP_BLL</RootNamespace>
+    <AssemblyName>BAP BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.FAXCOMLib">
+      <HintPath>dll\Interop.FAXCOMLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Wellshsoft.Net">
+      <HintPath>..\dll\Wellshsoft.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Wellshsoft.Net.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\Wellshsoft.Net.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Wellshsoft.Net.WinForm">
+      <HintPath>..\dll\Wellshsoft.Net.WinForm.dll</HintPath>
+    </Reference>
+    <Reference Include="WSERP.Common">
+      <HintPath>..\dll\WSERP.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="WSERP.DALBase">
+      <HintPath>..\dll\WSERP.DALBase.dll</HintPath>
+    </Reference>
+    <Reference Include="WSERP.DALHRBase">
+      <HintPath>..\dll\WSERP.DALHRBase.dll</HintPath>
+    </Reference>
+    <Reference Include="WSERP.DALProduct">
+      <HintPath>..\dll\WSERP.DALProduct.dll</HintPath>
+    </Reference>
+    <Reference Include="WSERP.DALSolution, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\WSERP.DALSolution.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Watermark.cs" />
+    <Compile Include="WxBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BAP DAL\BAP DAL.csproj">
+      <Project>{2A095529-46F1-47CE-8F04-100D20E40F9A}</Project>
+      <Name>BAP DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BAP Model\BAP Model.csproj">
+      <Project>{EF7A45F0-2DE2-4D3B-A12E-15FF5DBDFB34}</Project>
+      <Name>BAP Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BAP WeChart.Utility\BAP WeChart.Utility.csproj">
+      <Project>{32B95925-BD12-4C22-9249-22A7BD1A655B}</Project>
+      <Name>BAP WeChart.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

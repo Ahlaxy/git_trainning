@@ -1,0 +1,22 @@
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\BAP BLL.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\BAP BLL.pdb
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\BAP DAL.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\BAP Model.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\BAP WeChart.Utility.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\Newtonsoft.Json.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\Wellshsoft.Net.Data.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\Wellshsoft.Net.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\Wellshsoft.Net.WinForm.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\WSERP.Common.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\WSERP.DALBase.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\WSERP.DALHRBase.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\WSERP.DALProduct.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\WSERP.DALSolution.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\WSERP.DALWorkFlow.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\BAP DAL.pdb
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\BAP Model.pdb
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\BAP WeChart.Utility.pdb
+D:\Code\ERP\Wechat\qywx\BAP BLL\obj\Debug\BAP BLL.csprojResolveAssemblyReference.cache
+D:\Code\ERP\Wechat\qywx\BAP BLL\obj\Debug\BAP BLL.dll
+D:\Code\ERP\Wechat\qywx\BAP BLL\obj\Debug\BAP BLL.pdb
+D:\Code\ERP\Wechat\qywx\BAP BLL\bin\Debug\System.Net.Http.dll

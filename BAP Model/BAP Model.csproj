@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EF7A45F0-2DE2-4D3B-A12E-15FF5DBDFB34}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BAP_Model</RootNamespace>
+    <AssemblyName>BAP Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BAP WeChart\Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WSERP.Common">
+      <HintPath>..\dll\WSERP.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccompanyType.cs" />
+    <Compile Include="AuditOrderListDto.cs" />
+    <Compile Include="Comment.cs" />
+    <Compile Include="DepartmentModel.cs" />
+    <Compile Include="EquipmentInspectionItem.cs" />
+    <Compile Include="GetMaintainListRequestModel.cs" />
+    <Compile Include="GoodsAndMaterials.cs" />
+    <Compile Include="GoodsAndMaterialsDetails.cs" />
+    <Compile Include="InspectionDetails.cs" />
+    <Compile Include="InspectionItemDetails.cs" />
+    <Compile Include="InspectionTask.cs" />
+    <Compile Include="MaintainDescription.cs" />
+    <Compile Include="MaintainList.cs" />
+    <Compile Include="MaintainNoticeMultimediaData.cs" />
+    <Compile Include="Material.cs" />
+    <Compile Include="OrderMealReturnCollectionModel.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="MaterialCostItem.cs" />
+    <Compile Include="MealCategory.cs" />
+    <Compile Include="MealDetails.cs" />
+    <Compile Include="MenuPowers.cs" />
+    <Compile Include="modelForTest.cs" />
+    <Compile Include="NosocomialArea.cs" />
+    <Compile Include="OrderDetails.cs" />
+    <Compile Include="OrderMealOrderDetails.cs" />
+    <Compile Include="OrderMealUserData.cs" />
+    <Compile Include="OrderStatusAndQuantity.cs" />
+    <Compile Include="ShoppingCartData.cs" />
+    <Compile Include="SimulateGetHisListItem.cs" />
+    <Compile Include="Task.cs" />
+    <Compile Include="TestApplyFixingRequestModel.cs" />
+    <Compile Include="RoutineInspectionAndRoutineMaintenaceRequestModel.cs" />
+    <Compile Include="TestOrderMealUserData.cs.cs" />
+    <Compile Include="Token.cs" />
+    <Compile Include="TransportReg.cs" />
+    <Compile Include="WechatTemplateMessage.cs" />
+    <Compile Include="WxInfo.cs" />
+    <Compile Include="Employees.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WXModel.cs" />
+    <Compile Include="AccompanyReg.cs" />
+    <Compile Include="AccompanyRegDetails.cs" />
+    <Compile Include="MaintenanceOrderCount.cs" />
+    <Compile Include="AccompanyTool.cs" />
+    <Compile Include="NovoReturnCollectionModel.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="ProjectElement.cs" />
+    <Compile Include="ReturnCollectionModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BAP WeChart.Utility\BAP WeChart.Utility.csproj">
+      <Project>{32B95925-BD12-4C22-9249-22A7BD1A655B}</Project>
+      <Name>BAP WeChart.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

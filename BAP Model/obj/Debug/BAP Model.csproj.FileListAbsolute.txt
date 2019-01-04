@@ -1,0 +1,11 @@
+D:\Code\ERP\Wechat\qywx\BAP Model\bin\Debug\BAP Model.dll
+D:\Code\ERP\Wechat\qywx\BAP Model\bin\Debug\BAP Model.pdb
+D:\Code\ERP\Wechat\qywx\BAP Model\bin\Debug\BAP WeChart.Utility.dll
+D:\Code\ERP\Wechat\qywx\BAP Model\bin\Debug\Newtonsoft.Json.dll
+D:\Code\ERP\Wechat\qywx\BAP Model\bin\Debug\WSERP.Common.dll
+D:\Code\ERP\Wechat\qywx\BAP Model\bin\Debug\Wellshsoft.Net.dll
+D:\Code\ERP\Wechat\qywx\BAP Model\bin\Debug\BAP WeChart.Utility.pdb
+D:\Code\ERP\Wechat\qywx\BAP Model\obj\Debug\BAP Model.csprojResolveAssemblyReference.cache
+D:\Code\ERP\Wechat\qywx\BAP Model\obj\Debug\BAP Model.dll
+D:\Code\ERP\Wechat\qywx\BAP Model\obj\Debug\BAP Model.pdb
+D:\Code\ERP\Wechat\qywx\BAP Model\bin\Debug\System.Net.Http.dll
